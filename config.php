@@ -17,7 +17,7 @@ And the database name must be exactly like in your forums.
 */
 
 $dsn = "mysql://host=".$config["dbHost"].";dbname=".$config["dbName"];
-if(empty($config["table"] or $config["Site_Url"] or $config["dbName"] or $config["dbUsername"] or $config["dbPassword"] or $config["dbHost"] or $config["charset"]))
+if(empty($config["master_key"] or $config["table"] or $config["Site_Url"] or $config["dbName"] or $config["dbUsername"] or $config["dbPassword"] or $config["dbHost"] or $config["charset"]))
 {
 	throw new Exception("Enter the database informations in config.php");
 }
