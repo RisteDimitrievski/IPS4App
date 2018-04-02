@@ -6,7 +6,8 @@ $config = array(
 "dbPassword" => "1234".
 "charset" => "UTF8",
 "Site_Url" => "http://localhost/forums/",
-"table" => "core_members");
+"table" => "core_members",
+"master_key" => "master-key-IPS4");
 /*
 If you don't know what you're doing for charset, then dont change it.
 Because, some charsets are not safe for using in production servers.
